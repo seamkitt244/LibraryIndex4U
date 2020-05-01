@@ -31,7 +31,7 @@ namespace LibraryIndex
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach (Book hs in booksList)
+            foreach (Book hs in booksList)//had to make this list to convert the Book objects to int
             {
                 referenceBook.Add(Convert.ToInt32(hs.reference));
             }
